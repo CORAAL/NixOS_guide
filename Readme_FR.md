@@ -136,7 +136,7 @@ La dernière partition est formatée en `BTRFS`.
 
 ```bash
 mkfs.vfat -F32 -n boot /dev/vda1
-mkswap /dev/vda2 && swapon vda2
+mkswap /dev/vda2 && swapon /dev/vda2
 mkfs.btrfs /dev/vda3
 ```
 
